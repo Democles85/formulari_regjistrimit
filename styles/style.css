@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+body {
+  font-family: nunito, roboto, proxima-nova, 'proxima nova', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #36393f;
+}
+
+h2 {
+  color: #ff4742;
+}
+
+span {
+  color: rgb(199, 44, 44);
+}
+
+img {
+  border-radius: 15px;
+}
+
+input[type='text'],
+input[type='date'],
+select {
+  width: 100%;
+  text-align: center;
+}
+
+.container,
+.content,
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 30px;
+  border-radius: 20px;
+  width: 600px;
+  height: 100%;
+  background: #2f3136;
+}
+
+.inner {
+  color: #dcddde;
+}
+
+p {
+  font-size: 22px;
+}
+
+.button {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button:active {
+  opacity: 0.5;
+}
+
+.button_container {
+  padding-top: 30px;
+}
